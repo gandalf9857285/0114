@@ -5,6 +5,10 @@ struct Date{
 	int year;
 
 };
+void print (Date d){
+    std::count<<d.day<<"."<<d.month<<"."<<d.year << std::enl;
+}
+
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
